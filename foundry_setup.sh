@@ -51,4 +51,4 @@ fi
 # Install Python dependencies in development mode
 echo "Installing Python development dependencies..."
 pip install -e .[dev]
-pip install scanpy[leiden] pymde colorcet ipywidgets
+pip install scanpy[leiden] pymde colorcet ipywidgets plotly
